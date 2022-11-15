@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Different type of border</title>
+	<style type="text/css">
+		.main{
+			display: flex;
+			/*margin: 20px;*/
+			justify-content: space-around;
+		}
+		.a{
+			width: 200px;
+			height: 200px;
+/*			border: 10px;
+			border-style: dashed;
+			border-color: red;*/
+			border: 10px dashed red;
+			
+		}
+		.b{
+			width: 200px;
+			height: 200px;
+			border: 1px;
+			border-style: solid;
+			border-color: black	;
+			
+		}
+		.c{
+			width: 200px;
+			height: 200px;
+			border: 5px;
+			border-style: dotted;
+			border-color: black	;
+
+		}
+		.d{
+			width: 200px;
+			height: 200px;
+			border: 10px;
+			border-style: double;
+			border-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+      <div class="a"></div>
+	<div class="b"></div>
+	<div class="c"></div>
+	<div class="d"></div>
+</div>
+
+</body>
+</html>
